@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+# Local health data and generated reports must stay out of Git.
+data/
+output/
+outputs/
+attachments/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.png
+*.pdf
+patient_similarity_network.html
+network_summary.json
